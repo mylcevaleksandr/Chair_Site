@@ -136,7 +136,7 @@ body {
     animation: pulse 1s infinite;
 }
 
-.phone::before{
+.phone::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -160,11 +160,11 @@ body {
 }
 
 @keyframes pulse-2 {
-    0%{
+    0% {
         transform: scale(1);
         opacity: 1;
     }
-    100%{
+    100% {
         transform: scale(2);
         opacity: 0;
     }
